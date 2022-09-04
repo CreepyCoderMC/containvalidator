@@ -9,7 +9,7 @@ This method is not case sensitive so both string value and sub string value can 
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import subStringIsValid from './node_modules/@creepycoder/containvalidator/containvalidator.js';
+import subStringIsValid from './node_modules/@teamcoder/containvalidator/containvalidator.js';
 
 console.log( "Testing Condition 1 Passed = " + subStringIsValid(    "Hallo world" , "world" , true  ) );
 console.log( "Testing Condition 2 Passed = " + subStringIsValid(    "Hallo world" , "World" , false ) );
@@ -36,6 +36,7 @@ Testing Condition 5 Passed = true
 | Version  | Date                   | Remark                              |
 |----------|------------------------|-------------------------------------|
 | 1.0.0    | 04 September 2022      | Official first release              |
+| 1.0.1    | 04 September 2022      | Correcting spelling mistakes        |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/containvalidator

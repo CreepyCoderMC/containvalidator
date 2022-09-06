@@ -37,11 +37,12 @@ Testing Condition 5 Passed = true
 |----------|------------------------|-------------------------------------|
 | 1.0.0    | 04 September 2022      | Official first release              |
 | 1.0.1    | 04 September 2022      | Correcting spelling mistakes        |
+| 1.0.2    | 06 September 2022      | Correcting documentation            |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/containvalidator
 ## Operating Systems Tested On
->Windows and Linux
+>Windows, Linux and RaspberryPi
 ## License Information
-containvalidator © 2022 by Adriaan J. van Rensburg (CreepyCoderMC) is licensed under CC BY-NC-ND 4.0.
+Containvalidator © 2022 by Adriaan J. van Rensburg (CreepyCoderMC) is licensed under CC BY-NC-ND 4.0.
 > To view a online copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)

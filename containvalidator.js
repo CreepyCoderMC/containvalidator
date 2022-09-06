@@ -229,6 +229,7 @@
   *
   *     1.0.0       04 September 2022           Official first release 
   *     1.0.1       04 September 2022           Correcting spelling mistakes
+  *     1.0.2       06 September 2022           Correcting documentation
   */
 
  /* Validates if a string contains a sub string

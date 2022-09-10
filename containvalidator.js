@@ -231,7 +231,8 @@
   *     1.0.1       04 September 2022           Correcting spelling mistakes
   *     1.0.2       06 September 2022           Correcting documentation
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
-  *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
+  *     1.0.4       10 September 2022           Fixed code to be proper npm package
+  *     1.0.5       10 September 2022           Correcting documentation
   */
 
  /* Validates if a string contains a sub string
@@ -242,7 +243,7 @@
   * @return { Boolean }                Validation passed or failed
   */
 
-export function subStringIsValid( source , subString , caseSensitive = true ) {
+export default function subStringIsValid ( source , subString , caseSensitive = true ) {
 
     // Makes source and substring lower case if validation is not case sensitive 
     if( !caseSensitive ) {

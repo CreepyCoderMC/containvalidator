@@ -231,16 +231,18 @@
   *     1.0.1       04 September 2022           Correcting spelling mistakes
   *     1.0.2       06 September 2022           Correcting documentation
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
+  *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
   */
 
  /* Validates if a string contains a sub string
   * @param  { String  }  source        The source string to be checked
   * @param  { String  }  subString     The sub string to be checked
   * @param  { Boolean }  caseSensitive If the check must be case sensitive ( optional , default = true )
+  * 
   * @return { Boolean }                Validation passed or failed
   */
 
-export default function subStringIsValid( source , subString , caseSensitive = true ) {
+export function subStringIsValid( source , subString , caseSensitive = true ) {
 
     // Makes source and substring lower case if validation is not case sensitive 
     if( !caseSensitive ) {

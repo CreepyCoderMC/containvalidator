@@ -1,4 +1,4 @@
-import subStringIsValid from './containvalidator.js';
+import { subStringIsValid } from '@teamcoder/containvalidator';
 
 console.log( "Testing Condition 1 Passed = " + subStringIsValid(    "Hallo world" , "world" , true  ) );
 console.log( "Testing Condition 2 Passed = " + subStringIsValid(    "Hallo world" , "World" , false ) );

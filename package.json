@@ -2,10 +2,10 @@
 
   "type":         "module",
   "name":         "@teamcoder/containvalidator",
-  "version":      "1.0.3",
+  "version":      "1.0.4",
   "description":  "This module is small but easy to use. The purpose of this module is to check if a string contains a sub string, it can optionally also do none case sensitive comparing.",
   "main":         "containvalidator.js",
- 
+
   "keywords": [
                   "value",
                   "string",
@@ -16,9 +16,9 @@
                   "node.js",
                   "javascript"
   ],
- 
+
   "author":       "CreepyCoderMC",
-  "license":      "CC BY-NC-ND 4.0",
+  "license":      "CC-BY-NC-ND-4.0",
   "homepage":     "https://github.com/CreepyCoderMC",
   "url":          "https://github.com/CreepyCoderMC/containvalidator/issues",
   "email":        "creepycodermc@gmail.com",
